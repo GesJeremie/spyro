@@ -1,0 +1,70 @@
+/* ==================================================
+ * Spyro 0.1.0
+ * Copyright 2014, Unicorn team
+ * www.unicornfm.com
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php 
+ *
+ * ================================================== */
+/* ==================================================
+ *
+ * @module :: List
+ * @description :: List section
+ *
+ * ================================================== */
+ul.spyro-list {
+  padding: 0; }
+  ul.spyro-list li {
+    list-style: none !important;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 1.6em; }
+    ul.spyro-list li h3 {
+      font-size: 22px;
+      color: #575757; }
+    ul.spyro-list li .spyro-list-meta {
+      font-size: 13px;
+      font-style: italic; }
+    ul.spyro-list li .spyro-list-details {
+      display: block;
+      margin-top: 2em;
+      text-align: right;
+      margin-right: 3em; }
+  ul.spyro-list li:first-child {
+    border-top: 6px solid #f6f6f6;
+    padding-top: 0.4em; }
+
+/* ==================================================
+ *
+ * @module :: Helpers
+ * @description :: Helpers section
+ *
+ * ================================================== */
+.spyro-helper-spacer10 {
+  height: 10px; }
+
+.spyro-helper-spacer20 {
+  height: 20px; }
+
+.spyro-helper-spacer30 {
+  height: 30px; }
+
+.spyro-helper-spacer40 {
+  height: 40px; }
+
+.spyro-helper-spacer50 {
+  height: 50px; }
+
+.spyro-helper-spacer60 {
+  height: 60px; }
+
+.spyro-helper-spacer70 {
+  height: 70px; }
+
+.spyro-helper-spacer80 {
+  height: 80px; }
+
+.spyro-helper-spacer90 {
+  height: 90px; }
+
+.spyro-helper-spacer100 {
+  height: 100px; }
