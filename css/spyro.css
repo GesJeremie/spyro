@@ -8,6 +8,16 @@
  * ================================================== */
 /* ==================================================
  *
+ * @module :: Fonts
+ * @description :: Fonts section
+ *
+ * ================================================== */
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900);
+body {
+  font-family: "Lato", sans-serif; }
+
+/* ==================================================
+ *
  * @module :: List
  * @description :: List section
  *
@@ -17,21 +27,26 @@ ul.spyro-list {
   ul.spyro-list li {
     list-style: none !important;
     border-bottom: 1px solid #e8e8e8;
-    padding-bottom: 1.6em; }
+    padding-bottom: 1.6em;
+    padding-left: 0.6em; }
     ul.spyro-list li h3 {
       font-size: 22px;
-      color: #575757; }
+      color: #2d2d2d; }
     ul.spyro-list li .spyro-list-meta {
       font-size: 13px;
-      font-style: italic; }
+      font-style: italic;
+      color: #a2a2a2; }
     ul.spyro-list li .spyro-list-details {
       display: block;
       margin-top: 2em;
       text-align: right;
-      margin-right: 3em; }
+      margin-right: 3em;
+      font-size: 15px; }
   ul.spyro-list li:first-child {
     border-top: 6px solid #f6f6f6;
     padding-top: 0.4em; }
+  ul.spyro-list li:hover, ul.spyro-list .spyro-list-selected {
+    background-color: #f6f6f6; }
 
 /* ==================================================
  *
@@ -68,3 +83,90 @@ ul.spyro-list {
 
 .spyro-helper-spacer100 {
   height: 100px; }
+
+/* ==================================================
+ *
+ * @module :: Alert
+ * @description :: Alert section
+ *
+ * ================================================== */
+.spyro-alert {
+  width: 100%;
+  color: white;
+  padding: 15px;
+  margin-bottom: 21px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-size: 16px; }
+  .spyro-alert.spyro-alert-success {
+    background-color: #7ec25c; }
+  .spyro-alert.spyro-alert-info {
+    background-color: #398bce; }
+  .spyro-alert.spyro-alert-warning {
+    background-color: #f39c12; }
+  .spyro-alert.spyro-alert-error {
+    background-color: #e74c3c; }
+  .spyro-alert.spyro-alert-default {
+    background-color: #eeeeee;
+    color: #2d2d2d; }
+  .spyro-alert.spyro-alert-inverse {
+    background-color: #3a3f41;
+    color: white; }
+
+/* ==================================================
+ *
+ * @module :: Buttons
+ * @description :: Buttons section
+ *
+ * ================================================== */
+.spyro-button {
+  padding: 17px 50px;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 0.1em;
+  border-radius: 3px;
+  transition: all 0.2s ease-in-out 0s;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 30px;
+  text-decoration: none;
+  opacity: 0.8; }
+  .spyro-button:hover {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 1; }
+  .spyro-button.spyro-button-success {
+    background-color: #7ec25c; }
+  .spyro-button.spyro-button-default {
+    background-color: #eeeeee;
+    color: #2d2d2d; }
+  .spyro-button.spyro-button-warning {
+    background-color: #f39c12; }
+  .spyro-button.spyro-button-error {
+    background-color: #e74c3c; }
+  .spyro-button.spyro-button-inverse {
+    background-color: #3a3f41; }
+  .spyro-button.spyro-button-block {
+    width: 100%; }
+  .spyro-button.spyro-button-opacity-inverse {
+    opacity: 1; }
+    .spyro-button.spyro-button-opacity-inverse:hover {
+      opacity: 0.8; }
+  .spyro-button.spyro-button-no-opacity {
+    opacity: 1; }
+    .spyro-button.spyro-button-no-opacity:hover {
+      opacity: 1; }
+
+.spyro-text-title {
+  font-size: 80px;
+  letter-spacing: -2px;
+  font-weight: 300; }
+
+.spyro-text-punchline {
+  font-size: 50px;
+  letter-spacing: -1px;
+  font-weight: 300;
+  font-style: italic;
+  color: #d5d5d5; }
