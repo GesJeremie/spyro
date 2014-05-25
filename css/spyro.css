@@ -131,7 +131,13 @@ ul.spyro-list {
   display: inline-block;
   margin-top: 30px;
   text-decoration: none;
-  opacity: 0.8; }
+  opacity: 0.8;
+  outline: 0;
+  webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: none; }
   .spyro-button:hover {
     color: white;
     text-decoration: none;
@@ -170,3 +176,22 @@ ul.spyro-list {
   font-weight: 300;
   font-style: italic;
   color: #d5d5d5; }
+
+/* ==================================================
+ *
+ * @module :: Forms
+ * @description :: Forms section
+ *
+ * ================================================== */
+.spyro-form .spyro-form-default input {
+  display: block;
+  width: 100%;
+  color: #2d2d2d;
+  outline: none;
+  font-family: inherit;
+  text-align: center;
+  margin-bottom: 18px;
+  border-radius: 3px;
+  border: 1px #c1c1c1 solid;
+  height: 50px;
+  font-size: 18px; }
