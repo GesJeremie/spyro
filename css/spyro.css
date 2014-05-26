@@ -120,16 +120,14 @@ ul.spyro-list {
  *
  * ================================================== */
 .spyro-button {
-  padding: 17px 50px;
-  text-transform: uppercase;
+  padding: 6px 12px;
   color: white;
-  letter-spacing: 0.1em;
   border-radius: 3px;
   transition: all 0.2s ease-in-out 0s;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 400;
+  font-size: 14px;
   display: inline-block;
-  margin-top: 30px;
   text-decoration: none;
   opacity: 0.8;
   outline: 0;
@@ -154,6 +152,8 @@ ul.spyro-list {
     background-color: #e74c3c; }
   .spyro-button.spyro-button-inverse {
     background-color: #3a3f41; }
+  .spyro-button.spyro-button-primary {
+    background-color: #3686be; }
   .spyro-button.spyro-button-block {
     width: 100%; }
   .spyro-button.spyro-button-opacity-inverse {
@@ -183,7 +183,9 @@ ul.spyro-list {
  * @description :: Forms section
  *
  * ================================================== */
-.spyro-form .spyro-form-default input {
+.spyro-form .spyro-form-default input[type="text"],
+.spyro-form .spyro-form-default input[type="password"],
+.spyro-form .spyro-form-default textarea {
   display: block;
   width: 100%;
   color: #2d2d2d;
