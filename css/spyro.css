@@ -8,52 +8,18 @@
  * ================================================== */
 /* ==================================================
  *
- * @module :: Fonts
- * @description :: Fonts section
+ * @module :: Config
+ * @description :: Config before run sass compile
  *
  * ================================================== */
-@import url(http://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900);
-body {
-  font-family: "Lato", sans-serif; }
-
-/* ==================================================
- *
- * @module :: List
- * @description :: List section
- *
- * ================================================== */
-ul.spyro-list {
-  padding: 0; }
-  ul.spyro-list li {
-    list-style: none !important;
-    border-bottom: 1px solid #e8e8e8;
-    padding-bottom: 1.6em;
-    padding-left: 0.6em; }
-    ul.spyro-list li h3 {
-      font-size: 22px;
-      color: #2d2d2d; }
-    ul.spyro-list li .spyro-list-meta {
-      font-size: 13px;
-      font-style: italic;
-      color: #a2a2a2; }
-    ul.spyro-list li .spyro-list-details {
-      display: block;
-      margin-top: 2em;
-      text-align: right;
-      margin-right: 3em;
-      font-size: 15px; }
-  ul.spyro-list li:first-child {
-    border-top: 6px solid #f6f6f6;
-    padding-top: 0.4em; }
-  ul.spyro-list li:hover, ul.spyro-list .spyro-list-selected {
-    background-color: #f6f6f6; }
-
+/* Default colors */
 /* ==================================================
  *
  * @module :: Helpers
  * @description :: Helpers section
  *
  * ================================================== */
+/* Spacers */
 .spyro-helper-spacer10 {
   height: 10px; }
 
@@ -83,35 +49,6 @@ ul.spyro-list {
 
 .spyro-helper-spacer100 {
   height: 100px; }
-
-/* ==================================================
- *
- * @module :: Alert
- * @description :: Alert section
- *
- * ================================================== */
-.spyro-alert {
-  width: 100%;
-  color: white;
-  padding: 15px;
-  margin-bottom: 21px;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  font-size: 16px; }
-  .spyro-alert.spyro-alert-success {
-    background-color: #7ec25c; }
-  .spyro-alert.spyro-alert-info {
-    background-color: #398bce; }
-  .spyro-alert.spyro-alert-warning {
-    background-color: #f39c12; }
-  .spyro-alert.spyro-alert-error {
-    background-color: #e74c3c; }
-  .spyro-alert.spyro-alert-default {
-    background-color: #eeeeee;
-    color: #2d2d2d; }
-  .spyro-alert.spyro-alert-inverse {
-    background-color: #3a3f41;
-    color: white; }
 
 /* ==================================================
  *
@@ -159,7 +96,7 @@ ul.spyro-list {
   .spyro-button.spyro-button-inverse {
     background-color: #3a3f41; }
   .spyro-button.spyro-button-primary {
-    background-color: #3686be; }
+    background-color: #11a7db; }
   .spyro-button.spyro-button-xl {
     padding: 12px 18px;
     font-size: 20px; }
@@ -183,35 +120,15 @@ ul.spyro-list {
     .spyro-button.spyro-button-no-opacity:hover {
       opacity: 1; }
 
-.spyro-text-title {
-  font-size: 80px;
-  letter-spacing: -2px;
-  font-weight: 300; }
-
-.spyro-text-punchline {
-  font-size: 50px;
-  letter-spacing: -1px;
-  font-weight: 300;
-  font-style: italic;
-  color: #d5d5d5; }
-
 /* ==================================================
  *
- * @module :: Forms
- * @description :: Forms section
+ * @module :: Wells
+ * @description :: Wells section
  *
  * ================================================== */
-.spyro-form .spyro-form-default input[type="text"],
-.spyro-form .spyro-form-default input[type="password"],
-.spyro-form .spyro-form-default textarea {
-  display: block;
-  width: 100%;
-  color: #2d2d2d;
-  outline: none;
-  font-family: inherit;
-  text-align: center;
-  margin-bottom: 18px;
-  border-radius: 3px;
-  border: 1px #c1c1c1 solid;
-  height: 50px;
-  font-size: 18px; }
+ * .spyro-well
+ *
+ * 	&.spyro-well-xl
+ * 	&.spyro-well-lg
+ * 	&.spyro-well-sm
+ * 	&.spyro-well-xs */
