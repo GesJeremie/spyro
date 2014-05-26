@@ -126,9 +126,13 @@
  * @description :: Wells section
  *
  * ================================================== */
- * .spyro-well
- *
- * 	&.spyro-well-xl
- * 	&.spyro-well-lg
- * 	&.spyro-well-sm
- * 	&.spyro-well-xs */
+.spyro-well {
+  font-size: 18px;
+  padding: 20px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  background-color: whitesmoke;
+  letter-spacing: -1px; }
