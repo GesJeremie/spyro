@@ -7,12 +7,57 @@
  *
  * ================================================== */
 /* ==================================================
+ * Modules availables
+ * - helpers
+ * - buttons
+ * - wells
+ * - list
+ *
+ * ================================================== */
+/* ==================================================
  *
  * @module :: Config
  * @description :: Config before run sass compile
  *
  * ================================================== */
 /* Default colors */
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900);
+/* ==================================================
+ *
+ * @module :: Text
+ * @description :: Typo, fonts, titles, etc..
+ *
+ * ================================================== */
+body {
+  font-family: "Lato", sans-serif; }
+
+.spyro-text-title {
+  font-size: 80px;
+  letter-spacing: -2px;
+  font-weight: 300; }
+
+.spyro-text-punchline {
+  font-size: 50px;
+  letter-spacing: -1px;
+  font-weight: 300;
+  font-style: italic;
+  color: #d5d5d5; }
+
+.spyro-text-primary {
+  color: #11a7db; }
+
+.spyro-text-warning {
+  color: #f39c12; }
+
+.spyro-text-error {
+  color: #e74c3c; }
+
+.spyro-text-inverse {
+  color: #3a3f41; }
+
+.spyro-text-success {
+  color: #7ec25c; }
+
 /* ==================================================
  *
  * @module :: Helpers
