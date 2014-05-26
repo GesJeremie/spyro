@@ -119,6 +119,7 @@ ul.spyro-list {
  * @description :: Buttons section
  *
  * ================================================== */
+/* Default button */
 .spyro-button {
   padding: 6px 12px;
   color: white;
@@ -135,7 +136,10 @@ ul.spyro-list {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  border: none; }
+  border: none;
+  /* Other effect */
+  /* Colors */
+  /* Sizes */ }
   .spyro-button:hover {
     color: white;
     text-decoration: none;
@@ -154,6 +158,18 @@ ul.spyro-list {
     background-color: #3a3f41; }
   .spyro-button.spyro-button-primary {
     background-color: #3686be; }
+  .spyro-button.spyro-button-xl {
+    padding: 12px 18px;
+    font-size: 20px; }
+  .spyro-button.spyro-button-lg {
+    padding: 10px 16px;
+    font-size: 18px; }
+  .spyro-button.spyro-button-sm {
+    padding: 5px 10px;
+    font-size: 12px; }
+  .spyro-button.spyro-button-xs {
+    padding: 1px 5px;
+    font-size: 12px; }
   .spyro-button.spyro-button-block {
     width: 100%; }
   .spyro-button.spyro-button-opacity-inverse {
