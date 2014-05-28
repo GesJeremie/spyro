@@ -210,3 +210,60 @@ ul.spyro-list {
       text-decoration: none; }
       ul.spyro-list li a:hover {
         color: #454545; }
+
+/* ==================================================
+ *
+ * @module :: Navbar
+ * @description :: Navbar section
+ *
+ * ================================================== */
+.spyro-navbar {
+  height: 72px;
+  width: 100%;
+  background-color: #3a3f41;
+  position: relative;
+  overflow: hidden;
+  /* Fit to the navbar */
+  /* Brand title */
+  /* Fix bug with links */
+  /* Links */
+  /* Special button for navbar */ }
+  .spyro-navbar .spyro-navbar-container {
+    margin-top: 26px; }
+  .spyro-navbar .spyro-navbar-brand {
+    font-size: 25px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    letter-spacing: -1px;
+    text-decoration: none;
+    display: block; }
+  .spyro-navbar a.spyro-navbar-brand {
+    margin-top: -5px; }
+  .spyro-navbar ul.spyro-navbar-links {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .spyro-navbar ul.spyro-navbar-links li {
+      float: left;
+      margin-right: 32px; }
+    .spyro-navbar ul.spyro-navbar-links a {
+      color: white;
+      color: white;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+      letter-spacing: 1px; }
+    .spyro-navbar ul.spyro-navbar-links a:hover {
+      border-bottom: 1px dotted white; }
+  .spyro-navbar a.spyro-navbar-button {
+    padding: 10px 11px;
+    border: 1px solid #dadada;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px; }
+    .spyro-navbar a.spyro-navbar-button:hover {
+      border-bottom: 1px solid #dadada !important; }
