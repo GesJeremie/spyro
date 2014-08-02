@@ -8,15 +8,27 @@
 .spyro-navbar
 	height: 72px
 	width: 100%
-	background-color: #3a3f41
+	background-color: $color-inverse
 	position: relative
 	overflow: hidden
 
-	/* Fit to the navbar */
+	// Colors
+	&.spyro-navbar-primary
+		background-color: $color-primary
+	&.spyro-navbar-success
+		background-color: $color-success
+	&.spyro-navbar-danger
+		background-color: $color-danger
+	&.spyro-navbar-warning
+		background-color: $color-warning
+	&.spyro-navbar-inverse
+		background-color: $color-inverse
+
+	// Fit to the navbar
 	.spyro-navbar-container
 		margin-top: 26px
 
-	/* Brand title */
+	// Brand title
 	.spyro-navbar-brand
 		font-size: 25px
 		color: white
@@ -26,11 +38,11 @@
 		text-decoration: none
 		display: block
 
-	/* Fix bug with links */
+	// Fix bug with links
 	a.spyro-navbar-brand
 		margin-top: -5px
 
-	/* Links */
+	// Links
 	ul.spyro-navbar-links
 		margin: 0
 		padding: 0
@@ -53,7 +65,7 @@
 			border-bottom: 1px dotted #fff
 
 
-	/* Special button for navbar */
+	// Special button for navbar
 	a.spyro-navbar-button
 		padding: 10px 11px
 		border: 1px solid #dadada

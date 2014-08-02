@@ -1,0 +1,153 @@
+/* ==================================================
+ * Spyro 0.0.1
+ * Copyright 2014, Ges Jeremie
+ * https://github.com/GesJeremie/spyro
+ *
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php 
+ * ================================================== */
+@import url("http://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900");
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/spyro\/dev\/sass\/text\.sass}line{font-family:\0000311}}
+body {
+  font-family: "Lato", sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/spyro\/dev\/sass\/text\.sass}line{font-family:\0000314}}
+.spyro-text-title {
+  font-size: 80px;
+  letter-spacing: -2px;
+  font-weight: 300; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/spyro\/dev\/sass\/text\.sass}line{font-family:\0000319}}
+.spyro-text-punchline {
+  font-size: 50px;
+  letter-spacing: -1px;
+  font-weight: 300;
+  font-style: italic;
+  color: #d5d5d5; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/spyro\/dev\/sass\/text\.sass}line{font-family:\0000326}}
+.spyro-text-primary {
+  color: #11a7db; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/spyro\/dev\/sass\/text\.sass}line{font-family:\0000328}}
+.spyro-text-warning {
+  color: #f39c12; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/spyro\/dev\/sass\/text\.sass}line{font-family:\0000330}}
+.spyro-text-danger {
+  color: #e74c3c; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/spyro\/dev\/sass\/text\.sass}line{font-family:\0000332}}
+.spyro-text-inverse {
+  color: #3a3f41; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/spyro\/dev\/sass\/text\.sass}line{font-family:\0000334}}
+.spyro-text-success {
+  color: #7ec25c; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/spyro\/dev\/sass\/alert\.sass}line{font-family:\000038}}
+.spyro-alert {
+  width: 100%;
+  color: white;
+  padding: 15px;
+  margin-bottom: 21px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-size: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/spyro\/dev\/sass\/alert\.sass}line{font-family:\0000318}}
+  .spyro-alert.spyro-alert-success {
+    background-color: #7ec25c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/spyro\/dev\/sass\/alert\.sass}line{font-family:\0000321}}
+  .spyro-alert.spyro-alert-warning {
+    background-color: #f39c12; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/spyro\/dev\/sass\/alert\.sass}line{font-family:\0000324}}
+  .spyro-alert.spyro-alert-danger {
+    background-color: #e74c3c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/spyro\/dev\/sass\/alert\.sass}line{font-family:\0000327}}
+  .spyro-alert.spyro-alert-default {
+    background-color: #eeeeee;
+    color: #2d2d2d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/spyro\/dev\/sass\/alert\.sass}line{font-family:\0000331}}
+  .spyro-alert.spyro-alert-inverse {
+    background-color: #3a3f41;
+    color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/spyro\/dev\/sass\/alert\.sass}line{font-family:\0000335}}
+  .spyro-alert.spyro-alert-primary {
+    background-color: #11a7db; }
+
+/* ==================================================
+ *
+ * @module :: Navbar
+ * @description :: Navbar section
+ *
+ * ================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/spyro\/dev\/sass\/navbar\.sass}line{font-family:\000038}}
+.spyro-navbar {
+  height: 72px;
+  width: 100%;
+  background-color: #3a3f41;
+  position: relative;
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/spyro\/dev\/sass\/navbar\.sass}line{font-family:\0000316}}
+  .spyro-navbar.spyro-navbar-primary {
+    background-color: #11a7db; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/spyro\/dev\/sass\/navbar\.sass}line{font-family:\0000318}}
+  .spyro-navbar.spyro-navbar-success {
+    background-color: #7ec25c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/spyro\/dev\/sass\/navbar\.sass}line{font-family:\0000320}}
+  .spyro-navbar.spyro-navbar-danger {
+    background-color: #e74c3c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/spyro\/dev\/sass\/navbar\.sass}line{font-family:\0000322}}
+  .spyro-navbar.spyro-navbar-warning {
+    background-color: #f39c12; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/spyro\/dev\/sass\/navbar\.sass}line{font-family:\0000324}}
+  .spyro-navbar.spyro-navbar-inverse {
+    background-color: #3a3f41; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/spyro\/dev\/sass\/navbar\.sass}line{font-family:\0000328}}
+  .spyro-navbar .spyro-navbar-container {
+    margin-top: 26px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/spyro\/dev\/sass\/navbar\.sass}line{font-family:\0000332}}
+  .spyro-navbar .spyro-navbar-brand {
+    font-size: 25px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    letter-spacing: -1px;
+    text-decoration: none;
+    display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/spyro\/dev\/sass\/navbar\.sass}line{font-family:\0000342}}
+  .spyro-navbar a.spyro-navbar-brand {
+    margin-top: -5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/spyro\/dev\/sass\/navbar\.sass}line{font-family:\0000346}}
+  .spyro-navbar ul.spyro-navbar-links {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/spyro\/dev\/sass\/navbar\.sass}line{font-family:\0000351}}
+    .spyro-navbar ul.spyro-navbar-links li {
+      float: left;
+      margin-right: 32px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/spyro\/dev\/sass\/navbar\.sass}line{font-family:\0000355}}
+    .spyro-navbar ul.spyro-navbar-links a {
+      color: white;
+      color: white;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+      letter-spacing: 1px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/spyro\/dev\/sass\/navbar\.sass}line{font-family:\0000364}}
+    .spyro-navbar ul.spyro-navbar-links a:hover {
+      border-bottom: 1px dotted white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/spyro\/dev\/sass\/navbar\.sass}line{font-family:\0000369}}
+  .spyro-navbar a.spyro-navbar-button {
+    padding: 10px 11px;
+    border: 1px solid #dadada;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Applications\/MAMP\/htdocs\/spyro\/dev\/sass\/navbar\.sass}line{font-family:\0000378}}
+    .spyro-navbar a.spyro-navbar-button:hover {
+      border-bottom: 1px solid #dadada !important; }
