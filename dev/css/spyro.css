@@ -60,12 +60,6 @@ body {
   .spyro-alert.spyro-alert-primary {
     background-color: #11a7db; }
 
-/* ==================================================
- *
- * @module :: Navbar
- * @description :: Navbar section
- *
- * ================================================== */
 .spyro-navbar {
   height: 72px;
   width: 100%;
