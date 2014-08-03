@@ -1,5 +1,5 @@
 /* ==================================================
- * Spyro 0.0.1
+ * Spyro 0.0.2
  * Copyright 2014, Ges Jeremie
  * https://github.com/GesJeremie/spyro
  *
@@ -173,3 +173,36 @@ body {
     opacity: 1; }
     .spyro-btn.spyro-btn-no-opacity:hover {
       opacity: 1; }
+
+.spyro-well {
+  font-size: 18px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  background-color: whitesmoke; }
+  .spyro-well.spyro-well-xl {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px; }
+  .spyro-well.spyro-well-lg {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px; }
+  .spyro-well.spyro-well-sm {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px; }
+  .spyro-well.spyro-well-xs {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px; }
