@@ -1,4 +1,6 @@
-spyro
+> :skull: This project has been archived.
+
+Spyro
 =====
 
 Template delivered as a framework for bootstrap
